@@ -21,7 +21,7 @@ from __future__ import print_function
 import os
 from .. import get_submodules_from_kwargs
 from keras.applications import imagenet_utils
-from keras.src.legacy.backend import int_shape
+from tensorflow.keras.backend import int_shape
 
 
 backend = None

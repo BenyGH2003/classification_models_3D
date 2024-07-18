@@ -34,7 +34,7 @@ from keras import models
 from keras import layers as klayers
 from keras.src.ops import operation_utils
 from ..models._DepthwiseConv3D import DepthwiseConv3D
-from keras.src.legacy.backend import int_shape
+from tensorflow.keras.backend import int_shape
 
 
 DEFAULT_BLOCKS_ARGS = [{

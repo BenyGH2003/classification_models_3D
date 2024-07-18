@@ -81,7 +81,7 @@ import warnings
 from .. import get_submodules_from_kwargs
 from ..weights import load_model_weights
 from keras.applications import imagenet_utils
-from keras.src.legacy.backend import int_shape
+from tensorflow.keras.backend import int_shape
 
 
 backend = None
