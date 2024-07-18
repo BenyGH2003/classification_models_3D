@@ -2,7 +2,7 @@ import os
 import collections
 
 from keras.applications import imagenet_utils
-from keras.src.legacy.backend import int_shape
+from tensorflow.keras.backend import int_shape
 
 from classification_models_3D import get_submodules_from_kwargs
 from ._common_blocks import GroupConv3D, ChannelSE
