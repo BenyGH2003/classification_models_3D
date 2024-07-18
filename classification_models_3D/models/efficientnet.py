@@ -23,7 +23,7 @@ Reference:
 
 from .. import get_submodules_from_kwargs
 from ..weights import load_model_weights
-import file_utils
+from keras.src.utils import file_utils
 
 import os
 import copy
